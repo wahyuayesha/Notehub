@@ -4,47 +4,52 @@
 ![GitHub stars](https://img.shields.io/github/stars/FajarFarel/notehub?style=social)
 ![GitHub last commit](https://img.shields.io/github/last-commit/FajarFarel/notehub)
 
-<img width="1240" height="649" alt="notehubMockup" src="https://github.com/user-attachments/assets/a7c0a723-018a-4e85-b43c-855d9a6aeade" />
+<img width="1240" height="649" alt="notehub mockup" src="https://github.com/user-attachments/assets/a7c0a723-018a-4e85-b43c-855d9a6aeade" />
 
 ---
 
-Aplikasi **Notehub** yang dimana pengguna dapat membuat sebuah catatan tentang apapun dan di sebarkan ke seluruh internet. Aplikasi ini juga menyediakan berbagai macam fitur dan halaman yang dikemas dengan UI yang interaktif dan sangat ramah akan pengguna baru
+**Notehub** is an application where users can create notes about anything and share them across the internet.  
+this application provides various features and pages wrapped in an interactive and beginner-friendly user interface.
 
 ---
 
-## 🧩 Fitur Utama
+## 🧩 main features
 
-- ✒ Membuat note baru
-- 👁 Membaca note pengguna lain
-- 🔍 Jelajahi ribuan note 
-- 🔖 Simpan note favorit
-- 📆 Kalender frekuensi menulis note
-
----
-
-## 🛠️ Teknologi yang Digunakan
-
-### 📱 Frontend (Flutter)
-
-- Flutter SDK
-- [`http`](https://pub.dev/packages/http) – komunikasi API
-- [`shared_preferences`](https://pub.dev/packages/shared_preferences) – penyimpanan lokal
-- [`get x`](https://pub.dev/packages/get) – manajemen state
-- [`foto`](https://pub.dev/packages/image_picker) - mengambil foto untuk profile
-
-### 🌐 Backend (Flask)
-
-- REST API
-- Ngrox
-
-### 📂 Penyimpanan (Database)
-
-- MySQL
-- Cloudinary
+- ✒ create new notes  
+- 👁 read notes from other users  
+- 🔍 explore thousands of notes  
+- 🔖 save favorite notes  
+- 📆 writing frequency calendar  
 
 ---
 
-## 🗃️ Struktur Database
+## 🛠️ technologies used
+
+### 📱 frontend (flutter)
+
+- flutter sdk  
+- [`http`](https://pub.dev/packages/http) – api communication  
+- [`shared_preferences`](https://pub.dev/packages/shared_preferences) – local storage  
+- [`getx`](https://pub.dev/packages/get) – state management  
+- [`image_picker`](https://pub.dev/packages/image_picker) – profile photo selection  
+
+---
+
+### 🌐 backend (flask)
+
+- rest api  
+- ngrok  
+
+---
+
+### 📂 storage (database)
+
+- mysql  
+- cloudinary  
+
+---
+
+## 🗃️ database structure
 
 ### 📘 Tabel users
 ```sql
@@ -61,19 +66,17 @@ id, user_id, judul, isi, kategori, tanggal
 id, user_id, note_id
 ```
 
----
+## 👥 Contributors
 
-## 👥 Kontributor
-
-- 👨‍💻 **Wahyu** - Pengembang Frontend (PM)
-- 👨‍💻 **Fajar** – Pengembang Backend  
+- 👨‍💻 **Wahyu** - frontend developer (pm)
+- 👨‍💻 **Fajar** – backend developer
 - 🤖 Asisten AI  
 
 ---
 
-## Lisensi
+## License
 
-Proyek ini dilisensikan sebagai perangkat lunak terbuka (**Open Source**).  
-Seluruh fitur perangkat lunak ini dapat di akses dengan gratis tanpa pungutan biaya 
-📩 Hubungi pengembang untuk info lebih lanjut.  
-[Lihat Lisensi](LICENSE)
+This project is licensed as open source software.
+all features of this software are available free of charge.
+📩 contact the developers for more information. 
+[View License](LICENSE)
